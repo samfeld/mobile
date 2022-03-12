@@ -147,6 +147,9 @@ footer {
     #Chicago {
         animation: chicago 5s;
     }
+    #north-shore{
+        animation: chicago 5s;
+    }
     @keyframes chicago{
         from{opacity:0;}
         to{opacity:1;}
