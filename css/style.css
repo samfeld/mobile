@@ -131,6 +131,7 @@ footer {
 
   @media screen and (max-width: 900px){
     .trails_images_container{
+        display: grid;
         grid-template-columns: auto minmax(0,1fr);
         flex-wrap: wrap;
         flex-direction: column;
