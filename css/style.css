@@ -133,6 +133,7 @@ footer {
     .trails_images_container{
         flex-wrap: wrap;
         flex-direction: column;
+        justify-content: center;
   
     }
     #shore_line{
@@ -146,8 +147,6 @@ footer {
         animation: chicago 3s;
     }
     @keyframes chicago{
-       from{transform: translateX(0%);} 
-        to{transform: translateX(100%);}
         from{opacity:0;}
         to{opacity:1;}
     }
