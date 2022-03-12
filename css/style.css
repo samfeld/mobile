@@ -144,7 +144,7 @@ footer {
         font-family: "Assistant", 'Varela Round', sans-serif;
     }
     #Chicago {
-        animation: chicago 3s;
+        animation: chicago 5s;
     }
     @keyframes chicago{
         from{opacity:0;}
