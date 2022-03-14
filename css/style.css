@@ -82,6 +82,8 @@ img:nth-child(even):hover{
 .trails_images_container{
     display: grid;
     grid-template: repeat(auto-fit, minmax(300px, 1fr))/repeat(auto-fit, minmax(300px, 1fr));
+    padding:10px;
+    justify-content: center;
 }
 
 img:hover{
@@ -152,6 +154,8 @@ footer {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        align-content: center;
+        justify-self: center;
   
     }
     #shore_line{
