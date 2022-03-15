@@ -131,6 +131,18 @@ li:hover {
     border-radius: 20px;
     text-align: center;
 }
+#form_legend{
+    font-size: 125%;
+  text-transform: uppercase;
+  text-align: center;
+}input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
 a:visited{
     color: #000;
 }

@@ -5,10 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="imgs/email.png"/>
   <title>Sample Form - Template</title>
-  <style>
-    input{
-      display:block;
-    }
+  <link rel="stylesheet" href="css/style.css">
   </style>
 </head>
 <body>
@@ -18,7 +15,7 @@
   method="POST"
 >
   <fieldset>
-    <legend>Contact Samantha</legend>
+    <legend  id="form_legend">Contact Samantha</legend>
     <label for="name_id">Your Name</label>
     <input type="text" id="name_id" name="name" placeholder="Enter Your Name">
 
@@ -26,7 +23,7 @@
     <input type="email"  id="email_id" name="email" placeholder="Enter Your Email">
 
     <label for="email_c_id">Confirm Your Email</label>
-    <input type="email" name="confirmed_email" placeholder="Confirm Your Name" id="email_c_id">
+    <input type="email" id="email_c_id" name="confirmed_email" placeholder="Confirm Your Name">
 
 
     <label for="phone_id">Your Phone Number</label>
@@ -40,10 +37,10 @@
 
     <textarea name="message" placeholder="Enter Your Message" id="message_id"></textarea>
 
-    <input type="checkbox" name="remember"> 
+    <input type="checkbox" name="remember" id="remember_id"> 
     <label for="remember_id">Remember me</label>
 
-    <input type="submit" name="submit" id="remember_id">
+    <input type="submit" name="submit">
   </fieldset>
  </form>
 </body>
