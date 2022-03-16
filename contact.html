@@ -9,6 +9,20 @@
   </style>
 </head>
 <body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href = "index.html" >Explore</a> </li>
+                <li ><a href="waterfront.html">Waterfront</a></li>
+                <li> <a href="trails.html">Trails</a></li>
+                <li> <a href="shopping.html">Shopping</a></li>
+                <li> <a href="restaurants.html">Dining</a></li>
+                <li> <a href="desserts.html">Desserts & Coffe</a></li>
+                <li><a href="sites.html">Sites</a></li>
+                <li class="active"><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
   <form
   action="https://formspree.io/f/mayvbevg"
@@ -23,16 +37,16 @@
     <input type="email"  id="email_id" name="email" placeholder="Enter Your Email">
 
     <label for="email_c_id">Confirm Your Email</label>
-    <input type="email" id="email_c_id" name="confirmed_email" placeholder="Confirm Your Name">
+    <input type="email" id="email_c_id" name="confirmed_email" placeholder="Confirm Your Email">
 
 
     <label for="phone_id">Your Phone Number</label>
-    <input type="tel" name="phone" placeholder="Enter Your Phone Number " id="phone_id">
+    <input type="tel" id="phone_id" name="phone" placeholder="Enter Your Phone Number ">
     <div id="phone_format"><span>(Format: 123-456-7890)</span></div>
     
     <label for="message_id">Leave A Message</label>
 
-    <textarea name="message" placeholder="Enter Your Message" id="message_id"></textarea>
+    <textarea name="message" id="message_id" placeholder="Enter Your Message"></textarea>
 
     <input type="checkbox" name="remember" id="remember_id"> 
     <label for="remember_id">Remember me</label>
