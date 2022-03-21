@@ -22,7 +22,7 @@ h1{
 	font-weight: bold;
     text-align: center;
     margin: 20px;
-
+    color: #616161;
 }
 h2{
     font-size: 25px;
@@ -145,6 +145,20 @@ li:hover {
     border-radius: 3px;
     box-sizing: content-box;
     
+  }
+  
+  .dynamic-text-shadow {
+    /*  larger font size, more shadow distance  */
+    text-shadow: .1em .1em 0 rgb(65, 186, 247);
+  }
+  .invert{
+    position: sticky;
+    top: 20px;
+    mix-blend-mode: difference;
+    min-height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   textarea{
       width: 100%;
