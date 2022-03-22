@@ -147,10 +147,6 @@ li:hover {
     
   }
   
-  .dynamic-text-shadow {
-    /*  larger font size, more shadow distance  */
-    text-shadow: .1em .1em 0 rgb(65, 186, 247);
-  }
   .invert{
     position: sticky;
     top: 20px;
@@ -184,6 +180,14 @@ li:hover {
   #submit_button:hover{
     border: 3px solid #c5d5cb;
     
+  }
+  .waves{
+      background: url("images/waves.gif");
+  }
+
+  #click_here{
+      margin: 20px;
+      background-color:#c2dde6;
   }
 a:visited{
     color: #000;
