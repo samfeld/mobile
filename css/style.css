@@ -136,7 +136,8 @@ li:hover {
   text-transform: uppercase;
   text-align: center;
   
-}input {
+}
+input {
     width: 95%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -218,6 +219,12 @@ footer {
         align-content: center;
         justify-self: center;
   
+    }
+    input{
+        max-width: 92%;
+    }
+    textarea{
+        max-width: 92%;
     }
     #shore_line{
         background-image: url("../images/north_shore.jpeg");
