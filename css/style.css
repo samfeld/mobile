@@ -185,6 +185,7 @@ li:hover {
   }
   .waves{
       background: url("images/waves.gif");
+      padding: 20px;
   }
 
   #click_here{
