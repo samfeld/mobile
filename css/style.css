@@ -192,6 +192,8 @@ input {
   .waves{
       background: url("images/waves.gif");
       padding: 20px;
+      border: none;
+    
   }
 
   #click_here{
@@ -253,10 +255,8 @@ footer {
         from{opacity:0;}
         to{opacity:1;}
     }
-    .fa-plate-utensils::before{
-        font-family: "Font Awesome 5 Brands"; 
-	font-weight: 400;
-	content: "\f09a";
+    .waves{
+       overflow-x: hidden;
     }
     
     .icons_sometimes{
