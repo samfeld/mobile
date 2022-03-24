@@ -257,8 +257,11 @@ footer {
     }
     .waves{
        overflow-x: hidden;
+       padding: 2rem;
     }
-    
+    .container{
+        padding: 2rem;
+    }
     .icons_sometimes{
         visibility: visible;
         padding: 10px;
