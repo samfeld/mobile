@@ -212,7 +212,20 @@ a:visited{
     z-index: 1;
 }
 a.skip{
+    padding: 6px;
+    -webkit-transition: top 1s ease-out;
+  transition: left 1s ease-out;
+  z-index: -999;
     position:relative;
+    left: -500px;
+}
+a.skip:focus, a.skip:active {
+    left: auto;
+    top: auto;
+    height: auto;
+    overflow:auto;
+    text-align:center;
+    z-index: 999;
 }
 footer {
     color: #404040;
@@ -239,8 +252,12 @@ footer {
     a.skip{
         z-index: 1;
         position: absolute;
-        left: -500px;
+        left: -200px;
     }
+    a.skip:focus{
+        position: absolute;
+        top: 20px;
+      }
     input{
         max-width: 92%;
     }
@@ -281,6 +298,10 @@ footer {
   @media screen and (prefers-reduced-motion){
       #Chicago{
           animation: none;
+      }
+      a.skip {
+        -webkit-transition: initial; /* sets to default setting */
+        transition: initial; /* sets to default setting */
       }
   }
  
