@@ -197,6 +197,10 @@ input {
 a:visited{
     color: #000;
 }
+#restaurant_images{
+    display: grid;
+    justify-items: center;
+}
 #lous_link{
     display:block;
 }
@@ -213,8 +217,9 @@ footer {
 
   @media screen {
     .trails_images_container{
+        display: flex;
         flex-wrap: wrap;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center;
         align-items: center;
         align-content: center;
