@@ -209,6 +209,10 @@ a:visited{
 }
 #lous_link{
     display:block;
+    z-index: 1;
+}
+a.skip{
+    position:relative;
 }
 footer {
     color: #404040;
@@ -231,6 +235,11 @@ footer {
         align-content: center;
         justify-self: center;
   
+    }
+    a.skip{
+        z-index: 1;
+        position: absolute;
+        left: -500px;
     }
     input{
         max-width: 92%;
